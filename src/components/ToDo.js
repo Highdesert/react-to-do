@@ -11,7 +11,7 @@ class ToDo extends Component {
 
 			/>
 			<span>{ this.props.description }</span>
-			<button type="button" onClick={this.props.deleteTodo.bind(this, 'index')}>x</button>
+			<button onClick={this.props.deleteTodo}>x</button>
 
 			
 			
